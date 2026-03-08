@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text, View } from "react-native";
 
 const IPhoneCalculatorApp = () => {
   return (
     <View>
-      <Text>IPhoneCalculatorApp</Text>
+      <Text style={{ fontSize: 50, fontFamily: "SpaceMono", color: "white" }}>
+        IPhoneCalculatorApp
+      </Text>
     </View>
-  )
-}
+  );
+};
 
-export default IPhoneCalculatorApp
+export default IPhoneCalculatorApp;
